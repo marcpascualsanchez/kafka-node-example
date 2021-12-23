@@ -17,6 +17,17 @@ cd template-typescript-nodemon
 yarn install
 ```
 
+## Kafka
+
+Before running the server, uncompress the `kafka_2.13-3.0.0-custom.zip` file and run Kafka servers with
+
+```sh
+cd ./kafka_2.13-3.0.0-custom
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.1.properties
+bin/kafka-server-start.sh config/server.2.properties
+```
+
 ## Available Scripts
 
 ### `yarn develop`

@@ -62,5 +62,9 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "kafkajs": "^1.15.0"
   }
 }
