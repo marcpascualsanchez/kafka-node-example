@@ -1,4 +1,4 @@
-# template-typescript-nodemon
+# Kafka + node example
 
 [![Build][build]][build-badge]
 [![Coverage][codecov-shield]][codecov]
